@@ -278,7 +278,7 @@ end)
 
 btnSB.MouseButton1Click:Connect(function()
 	pcall(function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GAE-SIMPLIFIED-27193"))()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
 	end)
 end)
 
