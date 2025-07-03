@@ -284,7 +284,7 @@ end)
 
 btnIor.MouseButton1Click:Connect(function()
 	pcall(function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GAE-SIMPLIFIED-27193"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Xdyxz/iorvzi.lua2/main/iorvzi.lua2"))()
 	end)
 end)
 
