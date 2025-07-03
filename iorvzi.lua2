@@ -260,7 +260,7 @@ end
 
 local btnExec = makeBigBtn("Execute", 0)
 local btnClear = makeBigBtn("Clear", 0.25)
-local btnSB = makeBigBtn("ScriptBlox", 0.5)
+local btnSB = makeBigBtn("Inf Yield", 0.5)
 btnSB.BackgroundColor3 = Color3.fromRGB(60,60,120)
 local btnIor = makeBigBtn("iorvziHub", 0.75)
 btnIor.BackgroundColor3 = Color3.fromRGB(70,30,70)
@@ -278,7 +278,7 @@ end)
 
 btnSB.MouseButton1Click:Connect(function()
 	pcall(function()
-		loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end)
 
