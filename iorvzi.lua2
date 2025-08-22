@@ -255,7 +255,7 @@ local btnExec = makeBigBtn("Execute", 0)
 local btnClear = makeBigBtn("Clear", 0.25)
 local btnSB = makeBigBtn("Inf Yield", 0.5)
 btnSB.BackgroundColor3 = Color3.fromRGB(60,60,120)
-local btnIor = makeBigBtn("iorvziHub", 0.75)
+local btnIor = makeBigBtn("Kanlaman", 0.75)
 btnIor.BackgroundColor3 = Color3.fromRGB(70,30,70)
 
 -- Execute logic
